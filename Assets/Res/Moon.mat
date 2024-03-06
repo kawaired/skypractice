@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Moon
+  m_Shader: {fileID: 4800000, guid: b0671e399a1294e4daec691de5af3114, type: 3}
+  m_ShaderKeywords: _MOONPARTENABLE_ON _STARPARTENABLE_ON _SUNPARTENABLE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 30101b7dd09d35b4d8bbbfc1f9074e01, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarRampTex:
+        m_Texture: {fileID: 2800000, guid: a73aa08a2ca66c449adbfc554675c6fb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarTex:
+        m_Texture: {fileID: 2800000, guid: 170d807789465fd4183819c9423a7f80, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _TransmissionRGMap:
+        m_Texture: {fileID: 2800000, guid: a079c96cbce36ef4c8a99f54d9575a31, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _LDotVDampFac: 0.306
+    - _Metallic: 0
+    - _Mode: 0
+    - _MoonIntensityControl: 3.29897
+    - _MoonIntensityMax: 1
+    - _MoonIntensitySlider: 0.53
+    - _MoonPartEnable: 1
+    - _MoonSize: 0.23
+    - _NoiseSpeed: 0.05
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SkyColorIntensity: 1.334
+    - _SkyScatter: 0.672
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StarColorIntensity: 16.6
+    - _StarIntensityLinearDamping: 0.439
+    - _StarPartEnable: 1
+    - _SunColorIntensity: 1.283
+    - _SunDiskPower: 1000
+    - _SunPartEnable: 1
+    - _SunScatter: 0.458
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MoonColor: {r: 0.26139194, g: 0.36460605, b: 0.6226415, a: 1}
+    - _MoonDir: {r: 3.5, g: 4.08, b: -3.1, a: 0}
+    - _SkyColor: {r: 0.4339623, g: 0.2950894, b: 0.038892835, a: 1}
+    - _SunColor: {r: 0.41509432, g: 0.16521168, b: 0, a: 1}
+    - _SunOrgColorBeside: {r: 0.3490566, g: 0.2153308, b: 0, a: 1}
+    - _SunOrgColorForward: {r: 0.5283019, g: 0.08743465, b: 0.037379846, a: 1}
+    - _SunScatterColorBeside: {r: 0.04797081, g: 0.09202564, b: 0.13207549, a: 1}
+    - _SunScatterColorForward: {r: 0.00326, g: 0.18243, b: 0.63132, a: 1}
